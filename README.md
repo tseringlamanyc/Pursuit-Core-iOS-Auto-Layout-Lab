@@ -1,4 +1,4 @@
-# AutoLayout Lab
+# Auto Layout Lab
 
 Given the images below, create a View Controller that copies the images.  It must follow the spec from the images in both portrait AND landscape on iPhones AND iPads.
 
