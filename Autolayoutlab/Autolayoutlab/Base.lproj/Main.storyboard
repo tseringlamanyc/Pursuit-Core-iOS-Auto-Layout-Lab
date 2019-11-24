@@ -202,8 +202,8 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H4n-gM-vEY">
-                                        <rect key="frame" x="78" y="82" width="328" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H4n-gM-vEY">
+                                        <rect key="frame" x="86" y="82" width="320" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -216,15 +216,16 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="H4n-gM-vEY" secondAttribute="trailing" constant="8" id="0mU-Rd-OSG"/>
+                                    <constraint firstItem="H4n-gM-vEY" firstAttribute="leading" secondItem="jVL-jS-qf3" secondAttribute="trailing" constant="44" id="2gX-iu-62l"/>
                                     <constraint firstItem="jVL-jS-qf3" firstAttribute="leading" secondItem="v2K-Nu-foj" secondAttribute="leading" constant="8" id="7sM-xc-0b7"/>
                                     <constraint firstItem="xMY-Wn-XD4" firstAttribute="leading" secondItem="sY1-CC-16L" secondAttribute="trailing" constant="44" id="AGX-l0-jhf"/>
                                     <constraint firstAttribute="trailing" secondItem="xMY-Wn-XD4" secondAttribute="trailing" constant="8" id="FLn-Lx-Yc3"/>
                                     <constraint firstItem="sY1-CC-16L" firstAttribute="leading" secondItem="v2K-Nu-foj" secondAttribute="leading" constant="8" id="GCH-wB-ylK"/>
+                                    <constraint firstItem="H4n-gM-vEY" firstAttribute="top" secondItem="xMY-Wn-XD4" secondAttribute="bottom" constant="8" id="H7H-yA-wdO"/>
                                     <constraint firstItem="jVL-jS-qf3" firstAttribute="top" secondItem="sY1-CC-16L" secondAttribute="bottom" constant="21" id="N1X-jG-aTj"/>
-                                    <constraint firstAttribute="trailing" secondItem="H4n-gM-vEY" secondAttribute="trailing" constant="8" id="VfX-cU-shS"/>
                                     <constraint firstItem="xMY-Wn-XD4" firstAttribute="top" secondItem="v2K-Nu-foj" secondAttribute="top" constant="40" id="ZWN-ju-X5c"/>
                                     <constraint firstItem="sY1-CC-16L" firstAttribute="top" secondItem="v2K-Nu-foj" secondAttribute="top" constant="40" id="gLh-rT-Y4I"/>
-                                    <constraint firstItem="H4n-gM-vEY" firstAttribute="leading" secondItem="jVL-jS-qf3" secondAttribute="trailing" constant="36" id="yqo-pW-ibR"/>
                                 </constraints>
                             </view>
                         </subviews>
